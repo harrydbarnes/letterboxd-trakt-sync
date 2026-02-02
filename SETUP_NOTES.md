@@ -1,12 +1,15 @@
 # Setup Notes
 
 ## Configuration
-A `config.yml` file has been created in the root directory with the provided credentials.
+A `config.yml` file has been created in the local environment with the provided credentials.
 
-**IMPORTANT:** Please update the `letterboxd_username` in `config.yml`. It is currently set to `ENTER_USERNAME_HERE`.
+**IMPORTANT:**
+- The `letterboxd_username` has been updated to `harrydevereux`.
+- `config.yml` is **not** committed to the repository for security reasons (it contains secrets).
+- A `config.yml.example` file has been added to the repository as a template.
 
 ## Execution
-The sync script was successfully executed.
+The sync script was successfully executed in the environment.
 To run it again, use:
 ```bash
 python -m letterboxd_trakt.main

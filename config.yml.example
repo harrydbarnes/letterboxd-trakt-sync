@@ -1,0 +1,6 @@
+accounts:
+  - letterboxd_username: "ENTER_USERNAME_HERE"
+    trakt_client_id: "ENTER_CLIENT_ID_HERE"
+    trakt_client_secret: "ENTER_CLIENT_SECRET_HERE"
+    sync_diary: true
+    sync_watchlist: true
